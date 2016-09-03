@@ -1,5 +1,5 @@
 //创建github仓库
-curl -u "username:password" https://api.github.com/user/repos -d "{"name":"repos_name"}" 
+curl -u "username:password" https://api.github.com/user/repos -d '{"name":"repos_name"}' 
 
 //在本地远程仓库
 git remote git remote add origin https://github.com/cersar/test1.git
